@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar-fixed-left {
+    width: 140px;
+    position: fixed;
+    border-radius: 0;
+    height: 100%;
+}
+
+.navbar-fixed-left .navbar-nav > li {
+    float: none;  /* Cancel default li float: left */
+    width: 139px;
+}
+
+.navbar-fixed-left + .container {
+    padding-left: 65px;
+}
+
+/* On using dropdown menu (To right shift popuped) */
+.navbar-fixed-left .navbar-nav > li > .dropdown-menu {
+    margin-top: -50px;
+    margin-left: 140px;
+}
+.input-group-addon {
+    width:111px;
+    text-align:left;
+}
+.usersTable th{
+    background-color: #bdbdbd;
+    text-align: center;
+    height: 30px;
+
+}
+#postIMG{
+    position	: relative;
+    width: 250px;
+    cursor: pointer;
+}
+#uloadText{
+    width: 100%;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 70px;
+}
+.buttons{
+
+}
+.role{
+    width: 200px;
+    height: 32px;
+    font-size: 15px;
+}
+.usersTable li{
+    padding-left: 9px;
+    font-size: 20px;
+    color: black;
+}
+.usersTable tr{
+    text-align: center;
+    height: 30px;
+    font-size: 15px;
+}
+.usersTable tr:hover{
+    background-color: #90d4e2;
+    cursor: pointer;
+}
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+.id{
+    width: 55px;
+    font-weight: 600;
+}
+.fname{
+    width: 82px;
+}
+.lname{
+    width: 93px;
+}
+.email{
+    width: 146px;
+}
+.phone{
+    width: 130px;
+}
+.bDate{
+    width: 84px;
+}
+.species{
+    width: 66px;
+}
+.role{
+    width: 63px;
+}
+.created{
+    width: 150px;
+}
+.title{
+    text-align: left;
+    width: 150px;
+    padding-right: 4px;
+}
+.category{
+    text-align: left;
+    width: 81px;
+}
+.author{
+    text-align: center;
+    width: 112px;
+}

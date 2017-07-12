@@ -1,0 +1,21 @@
+body{
+	background: url(../img/background.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.container{
+	margin-top: 100px;
+}
+#centerBlock{
+	height: 185px;
+	background: #1b6d85;
+	border-radius: 15px;
+}
+/********************/
+.centered-form .panel{
+
+	background: rgba(255, 255, 255, 0.8);
+	box-shadow: rgba(0, 0, 0, 0.33) 20px 20px 20px;
+}
